@@ -1,0 +1,100 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/715934007283548241/725414944522109029/option-2-header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  /* display: flex; */
+
+}
+
+
+.header-container{
+  background-color: rgba(0,0,0,0,0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 9vh;
+
+}
+
+#logo {
+  font-size: 22px;
+  color: white;
+  display: inline;
+  margin: 125px;
+  font-weight: bold;
+  
+
+}
+
+.nav-buttons {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 300px;
+  font-weight: bold;
+
+}
+
+.alt-menu {
+  display: none;
+}
+
+.menu-button {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  .header-container {
+    background: white;
+    color: grey;
+    position: fixed;
+
+
+  }
+
+
+  #logo {
+    font-size: 20px;
+    color: black
+  }
+  .nav-buttons {
+    display: none
+  }
+  
+  .alt-menu {
+    display: initial;
+    font-size: 20px;
+    margin: 60px;
+  
+  }
+  
+  .menu-button{
+    display: initial;
+    /* height: 10vh;
+    width: 1vw; */
+    display: flex;
+    position:fixed;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* height: 20vh;
+    margin: 20%; */
+    background-color: white;
+    height: 22.5vh;
+    width: 100vw;
+    /* margin: 20%; */
+    margin: 0%;
+    top: 8%
+
+    
+  }
+  
+
+}
+
